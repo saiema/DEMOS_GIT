@@ -100,11 +100,7 @@ void main(int argc, char ** argv) {
 6. Add the initial files, i.e.: `.gitignore`, `main.c`, `bubblesort.c`, `ordering.h` and `README.md` to the repo:
 
 ```Bash
-git add README.md
-git add main.c
-git add ordering.h
-git add bubblesort.c
-git add .gitignore
+git add *
 git commit -m "First commit"
 
 ```
