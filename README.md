@@ -272,6 +272,7 @@ For `bubblesort.c` is
 ```C
 int maximum(int a, int b);
 int minimum(int a, int b);
+int bubbleup(int values[], int size, Ordering ordering);
 
 void sort(int values[], int size) {
     if (size > 1) {
